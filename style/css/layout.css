@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap');
 body{
-    font-family: 'Roboto Slab', serif;
     font-family: 'Noto Sans TC', sans-serif;
     cursor:default;
     }
 /* layout */
 a{text-decoration:none;display:block;color:#707070;}
+img{width:100%;}
 .unblock{display:none}
 .flex{display:flex;}
 .header{background:#E5D9CD;}
@@ -21,15 +21,29 @@ a{text-decoration:none;display:block;color:#707070;}
 .fas{display:none;}
 .fa-bars{font-size:26px;}
 /* nav */
-.nav{justify-content:space-between;margin:0 0 30px 0;}
+.nav{justify-content:space-between;margin:0 0 40px 0;align-items:center;}
 .function_bar .menu{display:none;}
 .function_bar a{padding:20px;}
+.function_bar a:after{content:"";display:block;width:100%;height:2px;background:#000;margin:5px 0 0;opacity:0;transition:0.5s;}
+.function_bar a:hover{color:#000;font-weight:bolder;}
+.function_bar a:hover::after{opacity:1;}
 /* ico */
-.ico{display:block;}
+.ico{display:inline-block;vertical-align:middle;background:url(../images/icon.svg)0 0 no-repeat;background-size:350px 350px;width:35px;height:35px;margin:-2px 10px 0 0;}
 .ico_scroll{width:20px;height:20px;border:1px solid #000;}
+.ico_1{background-position:0 0;}
+.ico_2{background-position:-36px 0;}
+.ico_3{background-position:-73px 0;}
 /* header */
 .social_bar .fab{font-size:28px;}
 .social_bar li+li{margin:15px 0 0;}
+/* scroll-link */
+.scroll-link{position:absolute;bottom:3rem;left:50%;transform:translateX(-50%);z-index:1;}
+.mouse{max-width:30px;width:100%;height:auto;}
+.scroll {animation-name:scroll;animation-duration:1.5s;animation-timing-function:cubic-bezier(0.650, -0.550, 0.250, 1.500);animation-iteration-count:infinite;transform-origin:50% 20.5px;will-change:transform, opacity;opacity:1;}
+@keyframes scroll {
+    0%, 20% {transform: translateY(0) scaleY(1);}
+    100% {transform: translateY(36px) scaleY(2);opacity: 0;}
+}
 /* footer */
 .footer .main{height:auto;padding:0px;justify-content:space-between;}
 .footer a{color:#fff;padding:20px 0;}
@@ -47,6 +61,7 @@ background: linear-gradient(to right, #ffffff 0%,#ffffff 50%,#e5d9cd 50%,#e5d9cd
     .nav .function_box{position:absolute;left:3%;top:calc(50% - 13px);}
     .nav+.contents{padding-top:47px;}
     .fas{display:block;}
+    .ico{display:block;margin:0 auto;}
     /* function_bar */
     .function_bar{display:none;position:fixed;;width:100%;height:auto;top:0;right:0;z-index:99;background:#fff;}
     .function_bar .menu{display:block;}
