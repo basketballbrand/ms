@@ -82,7 +82,7 @@
 .slogan .title span{display:block;transform:translateX(-50px);}
 .slogan .main{align-items:center;justify-content:center;}
 .slogan .slogan_text{text-align:center;}
-.slogan .slogan_text .text{font-size:28px;font-weight:bolder;margin:20px 0 30px;line-height:1.6;}
+.slogan .slogan_text .text{font-size:28px;font-weight:bolder;margin:20px 0 30px;line-height:1.6;padding:0 30px;}
 /* about_layout */
 .about_layout .background_box{width:750px;height:450px;background:#FAF4EF;position:absolute;top:15%;left:-2%;}
 .about_img{width:380px;position:absolute;z-index:10;left:12%;bottom:5%;}
