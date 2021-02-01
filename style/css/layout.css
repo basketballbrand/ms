@@ -66,7 +66,7 @@ background: linear-gradient(to right, #e5d9cd  0%, #e5d9cd  50%, #ffffff 50%, #f
     .nav+.contents{padding-top:42px;}
     .fas{display:block;}
     .ico{display:block;margin:0 auto;}
-    .scroll-link{bottom:1rem;}
+    .scroll-link{display:none;}
     /* function_bar */
     .function_bar{display:block;position:fixed;;width:75%;height:100vh;top:0;left:-75%;z-index:99;background:#FAF4EF;overflow:hidden;}
     .function_bar .menu{display:block;}
