@@ -146,7 +146,7 @@
     /* prod_layout */
     .prdo_img{width:80%;margin:30px auto;}
     .prod_box .prod_text{padding:0 30px;}
-    .prod_box .prod_price{text-align:center;border:2px solid #707070;width:55%;margin:25px auto;padding:15px 10px;}
+    .prod_box .prod_price{text-align:center;border:2px solid #707070;width:70%;margin:25px auto;padding:15px 10px;}
     .prod_box .buy_way{margin-top:30px;}
     .prod_box .buy_way dt{text-align:center;}
     .prod_box .buy_way dt::after{content:"";display:block;width:70px;height:2px;background:#000;margin:10px auto 0;}
