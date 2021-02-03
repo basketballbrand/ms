@@ -85,7 +85,7 @@
 .slogan .slogan_text .text{font-size:28px;font-weight:bolder;margin:20px 0 30px;line-height:1.6;padding:0 30px;}
 /* about_layout */
 .about_layout .background_box{width:750px;height:450px;background:#FAF4EF;position:absolute;top:15%;left:-2%;}
-.about_img{width:380px;position:absolute;z-index:10;left:12%;bottom:5%;}
+.about_img{width:380px;position:absolute;z-index:10;left:12%;top:25%;}
 .about_text{width:410px;position:absolute;z-index:10;right:0%;top:20%;color:#48656B;}
 .about_text dt{font-size:18px;}
 .about_text dd{margin:12px 0;line-height:1.6;}
