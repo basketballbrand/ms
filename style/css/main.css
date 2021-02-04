@@ -144,7 +144,7 @@
     .about_layout .header .main{height:auto;display:block;background:#FAF4EF;}
     .about_layout .header .main .contents{flex-direction:column;}
     .about_layout .background_box{display:none;}
-    .about_text{width:100%;padding:20px;margin-left:0;}
+    .about_text{width:100%;padding:20px;margin-left:0;margin-top:0px;}
     .about_img{width:100%;position:initial;}
     .content_img{width:100%;height:auto;}
     .content dl.flex{display:block;}
